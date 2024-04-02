@@ -1,0 +1,16 @@
+GET https://striveschool-api.herokuapp.com/api/product/ HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjA0NTc3ZTdiNTFlMzAwMWExZDFiZjUiLCJpYXQiOjE3MTE4MTMwNTcsImV4cCI6MTcxMzAyMjY1N30.zxEKdtaUhJWZtAl6DaT-eD8_g1fWBgefONvIL0c1vfc
+###
+POST https://striveschool-api.herokuapp.com/api/product/ HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjA0NTc3ZTdiNTFlMzAwMWExZDFiZjUiLCJpYXQiOjE3MTE4MTMwNTcsImV4cCI6MTcxMzAyMjY1N30.zxEKdtaUhJWZtAl6DaT-eD8_g1fWBgefONvIL0c1vfc
+Content-Type: application/json
+
+{ 
+    "name": "iphone 1",
+    "description": "bvrxyz",
+    "brand" : "apple",
+    "imageUrl": "https://bit.ly/3CExjRa",
+    "price": 100
+}
+
+###

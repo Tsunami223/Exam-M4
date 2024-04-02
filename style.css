@@ -1,0 +1,69 @@
+body {
+background-image: url(Screenshot\ 2024-04-02\ 113134.png);
+border-image: auto;
+image-orientation: initial;
+position: relative;
+}
+nav{
+    background-color: rgb(8, 85, 133);
+    margin-bottom: 0;
+}
+h1 {
+    color: white;
+    margin: 0;
+}
+.list-group-item:hover {
+    color: white;
+}
+.spinner-loading-page{
+    height: calc(100vh - 128px);
+    position : absolute;
+    inset: 0;
+    background-color: white;
+    z-index: 0;
+}
+.loader{
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    width: 48px;    
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 5px solid #131921;
+    border-right: 3px solid transparent;
+    box-sizing: border-box;
+    animation: spinner-rotation 1s linear infinite;
+}
+
+@keyframes spinner-rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.container{
+    margin-top: 50px;
+}
+.btnAdd{
+background-color: blue;
+border: transparent;
+color: white;
+border-radius: 20%;
+}
+.btnDelete{
+    background-color: red;
+    color: white;
+    border: transparent;
+    border-radius: 20%
+}
+.logo{
+    width: 200px;
+    height: 40px;
+    margin: 0;
+}
+.HomeBackoffice{
+color: white;
+};
